@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho" data-bs-smooth-scroll="true">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">México Brasileiro</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o restaurante
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nosso cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="https://img.freepik.com/fotos-gratis/ambiente-de-restaurante-com-cadeiras-e-mesas-de-madeira-e-linda-vista_181624-9887.jpg?w=1060&t=st=1694810275~exp=1694810875~hmac=80b02f1a917c49095aa32e006d732c7b7f16c20e880ed823c38e2868e25cf1e1" alt="Espaço interno do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://tierracolombianarestaurant.com/wp-content/uploads/2014/06/tierra-drinks-e1426859791621.jpg" alt="Vários copos com bebidas">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://www.thedailymeal.com/img/gallery/mexican-food-can-be-traced-all-the-way-back-to-7000-bc/l-intro-1674486308.jpg" alt="Pratos típicos mexicanos">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://img.freepik.com/fotos-gratis/ambiente-de-restaurante-com-cadeiras-e-mesas-de-madeira-e-linda-vista_181624-9887.jpg?w=1060&t=st=1694810275~exp=1694810875~hmac=80b02f1a917c49095aa32e006d732c7b7f16c20e880ed823c38e2868e25cf1e1" class="d-block w-100 rounded" alt="Espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o restaurante</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, cum aperiam
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, cum aperiam
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="https://img.freepik.com/fotos-gratis/arranjo-de-mesa-para-evento-de-aniversario-com-bolo-e-doces_23-2149312341.jpg?w=900&t=st=1694811456~exp=1694812056~hmac=2074cbe49ab3ee05e2328212f225ab9651b142ef92cd4485da28e47eae091241" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Aniversários
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam velit fugiat libero quia repellendus laborum, rerum amet ex facilis explicabo? Consectetur minus possimus
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://img.freepik.com/fotos-gratis/lote-de-flores-e-folhas-na-mesa_1304-4187.jpg?w=900&t=st=1694811539~exp=1694812139~hmac=9f4b4ccd33f0c535576d02f4b98e70f41a6c3830af166470d00221f09cd43ded" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Recepção para casamentos
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam velit fugiat libero quia repellendus laborum, rerum amet ex facilis explicabo? Consectetur minus possimus
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://img.freepik.com/fotos-gratis/brindando-as-pessoas_1098-21946.jpg?w=900&t=st=1694811585~exp=1694812185~hmac=09fecb6307bf40e6a5a8029bd568aadb9d0b46465b7264200b2bb9d26754d29a" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Confraternizações
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam velit fugiat libero quia repellendus laborum, rerum amet ex facilis explicabo? Consectetur minus possimus
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardapio" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nosso <span class="text-colored">cardápio</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas" class="fw-bold text-start nav-link text-colored active">
+                                Bebidas não alcoólicas
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#alcool" class="fw-bold text-start nav-link text-colored">
+                                Bebidas alcoólicas
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">
+                                Pratos
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#principais" class="fw-bold text-start nav-link text-colored">
+                                Lanches
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="fw-bold text-start nav-link text-colored">
+                                Sobremesas
+                            </button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Agua_de_ch%C3%ADa.jpg/800px-Agua_de_ch%C3%ADa.jpg" alt="Agua Fresca">
+                                        <h5 class="text-colored fw-bold mt-2">Agua Fresca</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Caf%C3%A9_de_olla.jpg/1024px-Caf%C3%A9_de_olla.jpg" alt="Café de Olla">
+                                        <h5 class="text-colored fw-bold mt-2">Café de Olla</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Horchata_de_chufa_2.jpg/1024px-Horchata_de_chufa_2.jpg" alt="Horchata">
+                                        <h5 class="text-colored fw-bold mt-2">Horchata</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/A6479A16-E051-4C0D-891C-8C99F31ACA03/Derivates/D9B5902F-4B1A-4B7F-BBDF-0ACDA56A114F.jpg" alt="Atole">
+                                        <h5 class="text-colored fw-bold mt-2">Atole</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/coca-cola.jpg" alt="Coca-Cola">
+                                        <h5 class="text-colored fw-bold mt-2">Coca-Cola</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/suco.jpg" alt="Suco de laranja">
+                                        <h5 class="text-colored fw-bold mt-2">Suco de laranja</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Blended_Margarita.jpg" alt="Margarita">
+                                        <h5 class="text-colored fw-bold mt-2">Margarita</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://luxurylatinamerica.com/blog/wp-content/charanda-oro.jpg" alt="Charanda">
+                                        <h5 class="text-colored fw-bold mt-2">Charanda</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/cerveja.jpg" alt="Cerveja">
+                                        <h5 class="text-colored fw-bold mt-2">Cerveja</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/cardapio/bebidas/vinho.jpg" alt="Vinho">
+                                        <h5 class="text-colored fw-bold mt-2">Vinho</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="entradas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Chile_en_nogada24.jpg" alt="Chile en Nogada">
+                                        <h5 class="text-colored fw-bold mt-2">Chile en Nogada</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://www.maricruzavalos.com/wp-content/uploads/2021/06/huevos_rancheros_recipe.jpg" alt="Huevos Rancheros">
+                                        <h5 class="text-colored fw-bold mt-2">Huevos Rancheros</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/RedMixioteTlax.JPG/1024px-RedMixioteTlax.JPG" alt="Mixiote">
+                                        <h5 class="text-colored fw-bold mt-2">Mixiote</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Barbacoa_%28en_Hidalgo%29.JPG/1024px-Barbacoa_%28en_Hidalgo%29.JPG" alt="Barbacoa">
+                                        <h5 class="text-colored fw-bold mt-2">Barbacoa</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="principais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://www.billyparisi.com/wp-content/uploads/2023/04/tamales-1.jpg" alt="Tamale">
+                                        <h5 class="text-colored fw-bold mt-2">Tamale</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://img.freepik.com/fotos-gratis/tacos-mexicanos-com-carne-em-molho-de-tomate-e-salsa_2829-14218.jpg?t=st=1694816811~exp=1694817411~hmac=d2f4bf1f43a6a961260498c9d2ca583f15f9456e092be4615705b80d9a4c8435" alt="Taco">
+                                        <h5 class="text-colored fw-bold mt-2">Taco</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://img.freepik.com/fotos-gratis/vista-lateral-shawarma-com-batatas-fritas-em-panelas-de-bordo_176474-3215.jpg?t=st=1694816843~exp=1694817443~hmac=c4471bcddf88058b682d2be892f470bac5e8e602651000d7548087d3e834fc7e" alt="Burrito">
+                                        <h5 class="text-colored fw-bold mt-2">Burrito</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://img.freepik.com/fotos-gratis/quesadilla-mexicano-fatiado-com-legumes-e-molhos-em-cima-da-mesa_2829-8583.jpg?w=996&t=st=1694816875~exp=1694817475~hmac=1d46d6df385da452d14335b18d6392161c7cbb54a2b68806d7036cd7fc6f27e0" alt="Quesadilla">
+                                        <h5 class="text-colored fw-bold mt-2">Quesadilla</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/BK_Carne_Asada_and_Hot_Dogs_1.jpg/1024px-BK_Carne_Asada_and_Hot_Dogs_1.jpg" alt="Cachorro-Quente">
+                                        <h5 class="text-colored fw-bold mt-2">Cachorro-Quente</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://i0.wp.com/www.onegreenplanet.org/wp-content/uploads/2022/04/pambazos-15-1.jpeg?fit=640%2C541&ssl=1" alt="Pambazo">
+                                        <h5 class="text-colored fw-bold mt-2">Pambazo</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://www.lemonblossoms.com/wp-content/uploads/2022/08/Bionicos-Fruit-Salad-S1.jpg" alt="Bionico">
+                                        <h5 class="text-colored fw-bold mt-2">Bionico</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="https://www.maricruzavalos.com/wp-content/uploads/2022/05/raspados-mexicanos-recipe.jpg" alt="Raspado">
+                                        <h5 class="text-colored fw-bold mt-2">Raspado</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">
+                        Fale <span class="text-colored">conosco</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="button" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 mx-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste nº 145 , Bairro Bootstrap - Americana - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: green;
+}
+#cabecalho .nav .nav-link.active {
+    background-color: white;
+    color: green;
+}
+#cabecalho .nav .nav-link, .navbar-brand,
+.navbar-brand:hover, .nav-cardapio .nav-link.active:hover {
+    color: white;
+}
+.navbar-toggler {
+    background-color: white;
+}
+.section-title {
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+}
+
+#sobre, #cardapio {
+    background-color: rgb(233, 255, 199);
+}
+.text-colored {
+    color: green;
+}
+.nav-cardapio .nav-link.active,
+#contato button {
+    background-color: green;
+    color: white;
+}
+.nav-cardapio .nav-link:hover {
+    color: green;
+}
+#cardapio img {
+    height: 160px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+.social-links a {
+    text-decoration: none;
+}
+#sobre img {
+    width: 100%;
+    aspect-ratio: 2/1;
+}
+
+@media (max-width:767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
